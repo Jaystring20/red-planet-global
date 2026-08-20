@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+/*
+  Red Planet Global Concepts design tokens.
+  Palette derives from the logo package (bright red, black, white, gold RC mark),
+  not from the brand document's burgundy/navy prescription. One accent, locked
+  page-wide: sector differentiation is photographic, never chromatic.
+*/
+@theme {
+  --color-signal: #d81e28;
+  --color-signal-deep: #b0151d;
+  --color-oxblood: #7a0c14;
+  --color-ink: #141414;
+  --color-ink-soft: #262626;
+  --color-bone: #f7f5f2;
+  --color-bone-dim: #ebe7e2;
+  --color-gold: #e0a420;
+  --color-graphite: #5a5a5c;
+  --color-hairline: #d8d3cd;
+  --color-hairline-dark: #333333;
+
+  --font-sans: var(--font-brand), "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-mono-brand), ui-monospace, "SFMono-Regular", monospace;
+
+  --radius-field: 2px;
+  --radius-surface: 4px;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+body {
+  background-color: var(--color-bone);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: var(--color-signal);
+  color: #ffffff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-signal);
+  outline-offset: 3px;
+}
+
+/* Display type: tight tracking, controlled leading. Never leading-none, so
+   italic and descender glyphs keep clearance. */
+.display {
+  letter-spacing: -0.025em;
+  line-height: 1.06;
+  text-wrap: balance;
+}
+
+.measure {
+  max-width: 62ch;
+  text-wrap: pretty;
+}

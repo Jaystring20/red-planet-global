@@ -1,0 +1,614 @@
+{
+  "hero": [
+    {
+      "src": "commons",
+      "title": "Aerial photograph of the Port of Miami Container Port.jpg",
+      "license": "Public domain",
+      "creator": "James R. Tourtellotte",
+      "page": "https://commons.wikimedia.org/wiki/File:Aerial_photograph_of_the_Port_of_Miami_Container_Port.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Aerial_photograph_of_the_Port_of_Miami_Container_Port.jpg/1920px-Aerial_photograph_of_the_Port_of_Miami_Container_Port.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3040,
+      "h": 2008,
+      "local": "scripts/candidates/hero-0.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Port of Miami container ship yard.jpg",
+      "license": "CC BY 2.0",
+      "creator": "Chuck Kramer",
+      "page": "https://commons.wikimedia.org/wiki/File:Port_of_Miami_container_ship_yard.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Port_of_Miami_container_ship_yard.jpg/1920px-Port_of_Miami_container_ship_yard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4288,
+      "h": 2848,
+      "local": "scripts/candidates/hero-1.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Container Terminal Tollerort 01.jpg",
+      "license": "CC BY-SA 3.0",
+      "creator": "Huhu Uet",
+      "page": "https://commons.wikimedia.org/wiki/File:Container_Terminal_Tollerort_01.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Container_Terminal_Tollerort_01.jpg/1920px-Container_Terminal_Tollerort_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 6065,
+      "h": 4096,
+      "local": "scripts/candidates/hero-2.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Cranes at Oakland's container terminal.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Frank Schulenburg",
+      "page": "https://commons.wikimedia.org/wiki/File:Cranes_at_Oakland%27s_container_terminal.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Cranes_at_Oakland%27s_container_terminal.jpg/1920px-Cranes_at_Oakland%27s_container_terminal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5172,
+      "h": 3448,
+      "local": "scripts/candidates/hero-3.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "2017 Paul D. Conley Container Terminal container cranes from Boston Harbor 2.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Beyond My Ken",
+      "page": "https://commons.wikimedia.org/wiki/File:2017_Paul_D._Conley_Container_Terminal_container_cranes_from_Boston_Harbor_2.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/2017_Paul_D._Conley_Container_Terminal_container_cranes_from_Boston_Harbor_2.jpg/1920px-2017_Paul_D._Conley_Container_Terminal_container_cranes_from_Boston_Harbor_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4448,
+      "h": 2213,
+      "local": "scripts/candidates/hero-4.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Container crane @ Container terminal @ Harbour Tour @ Spido @ Rotterdam (30530447836).jpg",
+      "license": "CC BY 2.0",
+      "creator": "Guilhem Vellut from Annecy, France",
+      "page": "https://commons.wikimedia.org/wiki/File:Container_crane_@_Container_terminal_@_Harbour_Tour_@_Spido_@_Rotterdam_(30530447836).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Container_crane_%40_Container_terminal_%40_Harbour_Tour_%40_Spido_%40_Rotterdam_%2830530447836%29.jpg/1920px-Container_crane_%40_Container_terminal_%40_Harbour_Tour_%40_Spido_%40_Rotterdam_%2830530447836%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5472,
+      "h": 3648,
+      "local": "scripts/candidates/hero-5.jpg"
+    }
+  ],
+  "healthcare": [
+    {
+      "src": "commons",
+      "title": "US Navy 030423-N-6967M-090 A central computer system monitors the heart rates of each patient in the Intensive Care Unit (ICU) to ensure a quick.jpg",
+      "license": "Public domain",
+      "creator": "U.S. Navy photo by Photographer's Mate 1st Class Shane T. McCoy.",
+      "page": "https://commons.wikimedia.org/wiki/File:US_Navy_030423-N-6967M-090_A_central_computer_system_monitors_the_heart_rates_of_each_patient_in_the_Intensive_Care_Unit_(ICU)_to_ensure_a_quick.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/US_Navy_030423-N-6967M-090_A_central_computer_system_monitors_the_heart_rates_of_each_patient_in_the_Intensive_Care_Unit_%28ICU%29_to_ensure_a_quick.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1902,
+      "h": 1198,
+      "local": "scripts/candidates/healthcare-0.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Intensive Care Unit.jpg",
+      "license": "CC BY-SA 3.0",
+      "creator": "S D A hospital",
+      "page": "https://commons.wikimedia.org/wiki/File:Intensive_Care_Unit.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Intensive_Care_Unit.jpg/1920px-Intensive_Care_Unit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2592,
+      "h": 1944,
+      "local": "scripts/candidates/healthcare-1.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Mechelen AZ St Maarten Intensive Care Unit 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Ad Meskens",
+      "page": "https://commons.wikimedia.org/wiki/File:Mechelen_AZ_St_Maarten_Intensive_Care_Unit_01.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Mechelen_AZ_St_Maarten_Intensive_Care_Unit_01.jpg/1920px-Mechelen_AZ_St_Maarten_Intensive_Care_Unit_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5184,
+      "h": 3888,
+      "local": "scripts/candidates/healthcare-2.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Mechelen AZ St Maarten Intensive Care Unit 02.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Ad Meskens",
+      "page": "https://commons.wikimedia.org/wiki/File:Mechelen_AZ_St_Maarten_Intensive_Care_Unit_02.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Mechelen_AZ_St_Maarten_Intensive_Care_Unit_02.jpg/1920px-Mechelen_AZ_St_Maarten_Intensive_Care_Unit_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5184,
+      "h": 3888,
+      "local": "scripts/candidates/healthcare-3.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Akron Children's Hospital Mobile Intensive Care Unit KIDS 3 - 10521990805.jpg",
+      "license": "CC BY-SA 2.0",
+      "creator": "Raymond Wambsgans",
+      "page": "https://commons.wikimedia.org/wiki/File:Akron_Children%27s_Hospital_Mobile_Intensive_Care_Unit_KIDS_3_-_10521990805.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Akron_Children%27s_Hospital_Mobile_Intensive_Care_Unit_KIDS_3_-_10521990805.jpg/1920px-Akron_Children%27s_Hospital_Mobile_Intensive_Care_Unit_KIDS_3_-_10521990805.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4272,
+      "h": 2848,
+      "local": "scripts/candidates/healthcare-4.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Akron Children's Hospital Mobile Intensive Care Unit KIDS 5 - 10521983674.jpg",
+      "license": "CC BY-SA 2.0",
+      "creator": "Raymond Wambsgans",
+      "page": "https://commons.wikimedia.org/wiki/File:Akron_Children%27s_Hospital_Mobile_Intensive_Care_Unit_KIDS_5_-_10521983674.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Akron_Children%27s_Hospital_Mobile_Intensive_Care_Unit_KIDS_5_-_10521983674.jpg/1920px-Akron_Children%27s_Hospital_Mobile_Intensive_Care_Unit_KIDS_5_-_10521983674.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4272,
+      "h": 2848,
+      "local": "scripts/candidates/healthcare-5.jpg"
+    }
+  ],
+  "icu": [
+    {
+      "src": "commons",
+      "title": "Nurses in an operating theatre Wellcome V0049902.jpg",
+      "license": "CC BY 4.0",
+      "creator": "",
+      "page": "https://commons.wikimedia.org/wiki/File:Nurses_in_an_operating_theatre_Wellcome_V0049902.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Nurses_in_an_operating_theatre_Wellcome_V0049902.jpg/1920px-Nurses_in_an_operating_theatre_Wellcome_V0049902.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3331,
+      "h": 2111,
+      "local": "scripts/candidates/icu-0.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Wishard Hospital infant operating room, c. 1916.jpg",
+      "license": "Public domain",
+      "creator": "Author unknown, digitized by the Indiana State Archives",
+      "page": "https://commons.wikimedia.org/wiki/File:Wishard_Hospital_infant_operating_room,_c._1916.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Wishard_Hospital_infant_operating_room%2C_c._1916.jpg/1920px-Wishard_Hospital_infant_operating_room%2C_c._1916.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2046,
+      "h": 1470,
+      "local": "scripts/candidates/icu-1.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Operating theatre 3rd childrens' hospital in Gothenburg.tif",
+      "license": "Public domain",
+      "creator": "Unknown authorUnknown author",
+      "page": "https://commons.wikimedia.org/wiki/File:Operating_theatre_3rd_childrens%27_hospital_in_Gothenburg.tif",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Operating_theatre_3rd_childrens%27_hospital_in_Gothenburg.tif/lossy-page1-1920px-Operating_theatre_3rd_childrens%27_hospital_in_Gothenburg.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3307,
+      "h": 2394,
+      "local": "scripts/candidates/icu-2.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Ipswich Hospital operating theatre, Queensland, 2022 02.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Kgbo",
+      "page": "https://commons.wikimedia.org/wiki/File:Ipswich_Hospital_operating_theatre,_Queensland,_2022_02.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Ipswich_Hospital_operating_theatre%2C_Queensland%2C_2022_02.jpg/1920px-Ipswich_Hospital_operating_theatre%2C_Queensland%2C_2022_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4032,
+      "h": 3024,
+      "local": "scripts/candidates/icu-3.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Ipswich Hospital operating theatre, Queensland, 2022 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Kgbo",
+      "page": "https://commons.wikimedia.org/wiki/File:Ipswich_Hospital_operating_theatre,_Queensland,_2022_01.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Ipswich_Hospital_operating_theatre%2C_Queensland%2C_2022_01.jpg/1920px-Ipswich_Hospital_operating_theatre%2C_Queensland%2C_2022_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3964,
+      "h": 2973,
+      "local": "scripts/candidates/icu-4.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Ipswich Hospital operating theatre, Queensland, 2022 03.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Kgbo",
+      "page": "https://commons.wikimedia.org/wiki/File:Ipswich_Hospital_operating_theatre,_Queensland,_2022_03.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Ipswich_Hospital_operating_theatre%2C_Queensland%2C_2022_03.jpg/1920px-Ipswich_Hospital_operating_theatre%2C_Queensland%2C_2022_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4032,
+      "h": 3024,
+      "local": "scripts/candidates/icu-5.jpg"
+    }
+  ],
+  "agriculture": [
+    {
+      "src": "commons",
+      "title": "Maize Farm.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Jean Pierre Nkinzingabo Tuyizere",
+      "page": "https://commons.wikimedia.org/wiki/File:Maize_Farm.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Maize_Farm.jpg/1920px-Maize_Farm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4829,
+      "h": 3219,
+      "local": "scripts/candidates/agriculture-0.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Maize farming.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Mathew kemboi",
+      "page": "https://commons.wikimedia.org/wiki/File:Maize_farming.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Maize_farming.jpg/1920px-Maize_farming.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4160,
+      "h": 3120,
+      "local": "scripts/candidates/agriculture-1.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Maize sprouting early 02.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Jozef020",
+      "page": "https://commons.wikimedia.org/wiki/File:Maize_sprouting_early_02.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Maize_sprouting_early_02.jpg/1920px-Maize_sprouting_early_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4080,
+      "h": 1840,
+      "local": "scripts/candidates/agriculture-2.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Maize sprouting early 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Jozef020",
+      "page": "https://commons.wikimedia.org/wiki/File:Maize_sprouting_early_01.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Maize_sprouting_early_01.jpg/1920px-Maize_sprouting_early_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4080,
+      "h": 1840,
+      "local": "scripts/candidates/agriculture-3.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "A maize plantation.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Tunde Akangbe",
+      "page": "https://commons.wikimedia.org/wiki/File:A_maize_plantation.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/A_maize_plantation.jpg/1920px-A_maize_plantation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4032,
+      "h": 3024,
+      "local": "scripts/candidates/agriculture-4.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Maize plantation farm.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Anitah Pezz",
+      "page": "https://commons.wikimedia.org/wiki/File:Maize_plantation_farm.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Maize_plantation_farm.jpg/1920px-Maize_plantation_farm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5008,
+      "h": 3336,
+      "local": "scripts/candidates/agriculture-5.jpg"
+    }
+  ],
+  "mining": [
+    {
+      "src": "commons",
+      "title": "Tagebau Garzweiler Panorama 2005.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Raimond Spekking",
+      "page": "https://commons.wikimedia.org/wiki/File:Tagebau_Garzweiler_Panorama_2005.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Tagebau_Garzweiler_Panorama_2005.jpg/1920px-Tagebau_Garzweiler_Panorama_2005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 12000,
+      "h": 1370,
+      "local": "scripts/candidates/mining-0.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Garzweiler Tagebau-1230.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Raimond Spekking",
+      "page": "https://commons.wikimedia.org/wiki/File:Garzweiler_Tagebau-1230.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Garzweiler_Tagebau-1230.jpg/1920px-Garzweiler_Tagebau-1230.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4876,
+      "h": 3251,
+      "local": "scripts/candidates/mining-1.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Bucket-wheel excavator at open pit mine Hambach 02.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Leonhard Lenz",
+      "page": "https://commons.wikimedia.org/wiki/File:Bucket-wheel_excavator_at_open_pit_mine_Hambach_02.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bucket-wheel_excavator_at_open_pit_mine_Hambach_02.jpg/1920px-Bucket-wheel_excavator_at_open_pit_mine_Hambach_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5184,
+      "h": 3888,
+      "local": "scripts/candidates/mining-2.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Bucket-wheel excavator at open pit mine Hambach 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Leonhard Lenz",
+      "page": "https://commons.wikimedia.org/wiki/File:Bucket-wheel_excavator_at_open_pit_mine_Hambach_01.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Bucket-wheel_excavator_at_open_pit_mine_Hambach_01.jpg/1920px-Bucket-wheel_excavator_at_open_pit_mine_Hambach_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5184,
+      "h": 3888,
+      "local": "scripts/candidates/mining-3.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Bucket-wheel excavator at open pit mine Hambach 03.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Leonhard Lenz",
+      "page": "https://commons.wikimedia.org/wiki/File:Bucket-wheel_excavator_at_open_pit_mine_Hambach_03.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bucket-wheel_excavator_at_open_pit_mine_Hambach_03.jpg/1920px-Bucket-wheel_excavator_at_open_pit_mine_Hambach_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5184,
+      "h": 3888,
+      "local": "scripts/candidates/mining-4.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Bucket-wheel excavator at open pit mine Hambach 06.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Leonhard Lenz",
+      "page": "https://commons.wikimedia.org/wiki/File:Bucket-wheel_excavator_at_open_pit_mine_Hambach_06.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Bucket-wheel_excavator_at_open_pit_mine_Hambach_06.jpg/1920px-Bucket-wheel_excavator_at_open_pit_mine_Hambach_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5184,
+      "h": 3888,
+      "local": "scripts/candidates/mining-5.jpg"
+    }
+  ],
+  "construction": [
+    {
+      "src": "commons",
+      "title": "The Millennium Tower (301 Mission Street) construction site and crane, SF.JPG",
+      "license": "CC BY-SA 3.0",
+      "creator": "Cheers. Trance addict - Armin van Buuren - Oceanlab",
+      "page": "https://commons.wikimedia.org/wiki/File:The_Millennium_Tower_(301_Mission_Street)_construction_site_and_crane,_SF.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/The_Millennium_Tower_%28301_Mission_Street%29_construction_site_and_crane%2C_SF.JPG/1920px-The_Millennium_Tower_%28301_Mission_Street%29_construction_site_and_crane%2C_SF.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2048,
+      "h": 1536,
+      "local": "scripts/candidates/construction-0.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "20230107 Construction Site Nuremberg.jpg",
+      "license": "CC BY 4.0",
+      "creator": "Flocci Nivis",
+      "page": "https://commons.wikimedia.org/wiki/File:20230107_Construction_Site_Nuremberg.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/20230107_Construction_Site_Nuremberg.jpg/1920px-20230107_Construction_Site_Nuremberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 6016,
+      "h": 4016,
+      "local": "scripts/candidates/construction-1.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Tower cranes at construction site of Gartneritaket in Vestby, Akershus, 10.01.2026, DSC 0247.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Sebbog13",
+      "page": "https://commons.wikimedia.org/wiki/File:Tower_cranes_at_construction_site_of_Gartneritaket_in_Vestby,_Akershus,_10.01.2026,_DSC_0247.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Tower_cranes_at_construction_site_of_Gartneritaket_in_Vestby%2C_Akershus%2C_10.01.2026%2C_DSC_0247.jpg/1920px-Tower_cranes_at_construction_site_of_Gartneritaket_in_Vestby%2C_Akershus%2C_10.01.2026%2C_DSC_0247.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4608,
+      "h": 3072,
+      "local": "scripts/candidates/construction-2.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Tower cranes at construction site of Gartneritaket in Vestby, Akershus, 10.01.2026, DSC 0275.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Sebbog13",
+      "page": "https://commons.wikimedia.org/wiki/File:Tower_cranes_at_construction_site_of_Gartneritaket_in_Vestby,_Akershus,_10.01.2026,_DSC_0275.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Tower_cranes_at_construction_site_of_Gartneritaket_in_Vestby%2C_Akershus%2C_10.01.2026%2C_DSC_0275.jpg/1920px-Tower_cranes_at_construction_site_of_Gartneritaket_in_Vestby%2C_Akershus%2C_10.01.2026%2C_DSC_0275.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4608,
+      "h": 3072,
+      "local": "scripts/candidates/construction-3.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Tower crane rising at hollywoodHUB construction site, Portland, Oregon.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "PortlandAppraisalBlog",
+      "page": "https://commons.wikimedia.org/wiki/File:Tower_crane_rising_at_hollywoodHUB_construction_site,_Portland,_Oregon.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Tower_crane_rising_at_hollywoodHUB_construction_site%2C_Portland%2C_Oregon.jpg/1920px-Tower_crane_rising_at_hollywoodHUB_construction_site%2C_Portland%2C_Oregon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5712,
+      "h": 4284,
+      "local": "scripts/candidates/construction-4.jpg"
+    },
+    {
+      "src": "openverse",
+      "title": "Salle sportive du Mas de Roux (construction site), tower crane",
+      "license": "cc0 1.0",
+      "creator": "Benoît Prieur",
+      "page": "https://commons.wikimedia.org/w/index.php?curid=82200290",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Salle_sportive_du_Mas_de_Roux_%28construction_site%29%2C_tower_crane.jpg",
+      "w": 4032,
+      "h": 3024,
+      "local": "scripts/candidates/construction-5.jpg"
+    }
+  ],
+  "trading": [
+    {
+      "src": "commons",
+      "title": "Kuantan Port Container Yard with Rubber Tyre Gantry.JPG",
+      "license": "CC BY-SA 3.0",
+      "creator": "Original uploader; Only Truth at en.Wikipedia",
+      "page": "https://commons.wikimedia.org/wiki/File:Kuantan_Port_Container_Yard_with_Rubber_Tyre_Gantry.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Kuantan_Port_Container_Yard_with_Rubber_Tyre_Gantry.JPG/1920px-Kuantan_Port_Container_Yard_with_Rubber_Tyre_Gantry.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3648,
+      "h": 2736,
+      "local": "scripts/candidates/trading-0.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Kuantan Port Container Yard with RTG & Reach Stacker.JPG",
+      "license": "CC BY-SA 3.0",
+      "creator": "Only Truth",
+      "page": "https://commons.wikimedia.org/wiki/File:Kuantan_Port_Container_Yard_with_RTG_%26_Reach_Stacker.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Kuantan_Port_Container_Yard_with_RTG_%26_Reach_Stacker.JPG/1920px-Kuantan_Port_Container_Yard_with_RTG_%26_Reach_Stacker.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2048,
+      "h": 1536,
+      "local": "scripts/candidates/trading-1.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "RTG crane by Konecranes SignalPAD.jpg",
+      "license": "CC BY-SA 2.0",
+      "creator": "SignalPAD",
+      "page": "https://commons.wikimedia.org/wiki/File:RTG_crane_by_Konecranes_SignalPAD.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/RTG_crane_by_Konecranes_SignalPAD.jpg/1920px-RTG_crane_by_Konecranes_SignalPAD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3072,
+      "h": 2304,
+      "local": "scripts/candidates/trading-2.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Rubber tyred gantry crane (RTG) pic-2.JPG",
+      "license": "CC0",
+      "creator": "Alf van Beem",
+      "page": "https://commons.wikimedia.org/wiki/File:Rubber_tyred_gantry_crane_(RTG)_pic-2.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Rubber_tyred_gantry_crane_%28RTG%29_pic-2.JPG/1920px-Rubber_tyred_gantry_crane_%28RTG%29_pic-2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4608,
+      "h": 3456,
+      "local": "scripts/candidates/trading-3.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Rubber tyred gantry crane (RTG) pic1.JPG",
+      "license": "CC0",
+      "creator": "Alf van Beem",
+      "page": "https://commons.wikimedia.org/wiki/File:Rubber_tyred_gantry_crane_(RTG)_pic1.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Rubber_tyred_gantry_crane_%28RTG%29_pic1.JPG/1920px-Rubber_tyred_gantry_crane_%28RTG%29_pic1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4608,
+      "h": 3456,
+      "local": "scripts/candidates/trading-4.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Rubber tyred gantry crane (RTG) pic3.JPG",
+      "license": "CC0",
+      "creator": "Alf van Beem",
+      "page": "https://commons.wikimedia.org/wiki/File:Rubber_tyred_gantry_crane_(RTG)_pic3.JPG",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Rubber_tyred_gantry_crane_%28RTG%29_pic3.JPG/1920px-Rubber_tyred_gantry_crane_%28RTG%29_pic3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4608,
+      "h": 3456,
+      "local": "scripts/candidates/trading-5.jpg"
+    }
+  ],
+  "consulting": [
+    {
+      "src": "commons",
+      "title": "G7 Conference on the Global Information Society (P-000516 09-12).jpg",
+      "license": "CC BY 4.0",
+      "creator": "Unknown authorUnknown author",
+      "page": "https://commons.wikimedia.org/wiki/File:G7_Conference_on_the_Global_Information_Society_(P-000516_09-12).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/G7_Conference_on_the_Global_Information_Society_%28P-000516_09-12%29.jpg/1920px-G7_Conference_on_the_Global_Information_Society_%28P-000516_09-12%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2728,
+      "h": 1830,
+      "local": "scripts/candidates/consulting-0.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Diplomacy Research Conference in Italy, sponsored by U.S. Department of State and Municipality of Florence.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Boychief11",
+      "page": "https://commons.wikimedia.org/wiki/File:Diplomacy_Research_Conference_in_Italy,_sponsored_by_U.S._Department_of_State_and_Municipality_of_Florence.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Diplomacy_Research_Conference_in_Italy%2C_sponsored_by_U.S._Department_of_State_and_Municipality_of_Florence.jpg/1920px-Diplomacy_Research_Conference_in_Italy%2C_sponsored_by_U.S._Department_of_State_and_Municipality_of_Florence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 5874,
+      "h": 3921,
+      "local": "scripts/candidates/consulting-1.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "APS quins (4095953796).jpg",
+      "license": "CC BY 2.0",
+      "creator": "John Nuttall from Hampshire, United Kingdom",
+      "page": "https://commons.wikimedia.org/wiki/File:APS_quins_(4095953796).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/APS_quins_%284095953796%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1412,
+      "h": 806,
+      "local": "scripts/candidates/consulting-2.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Sattupalle - Eluru APS RTC bus on Polavaram canal.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "IM3847",
+      "page": "https://commons.wikimedia.org/wiki/File:Sattupalle_-_Eluru_APS_RTC_bus_on_Polavaram_canal.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Sattupalle_-_Eluru_APS_RTC_bus_on_Polavaram_canal.jpg/1920px-Sattupalle_-_Eluru_APS_RTC_bus_on_Polavaram_canal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 6000,
+      "h": 4000,
+      "local": "scripts/candidates/consulting-3.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Videoconferencing background of an employment lawyer office.jpg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Tony Wong",
+      "page": "https://commons.wikimedia.org/wiki/File:Videoconferencing_background_of_an_employment_lawyer_office.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Videoconferencing_background_of_an_employment_lawyer_office.jpg/1920px-Videoconferencing_background_of_an_employment_lawyer_office.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 4067,
+      "h": 2711,
+      "local": "scripts/candidates/consulting-4.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Tables and booths at the American Physical Society March Meeting 2022 (52037135713).jpg",
+      "license": "CC BY 2.0",
+      "creator": "Chris Rycroft from Cambridge, Massachusetts, United States",
+      "page": "https://commons.wikimedia.org/wiki/File:Tables_and_booths_at_the_American_Physical_Society_March_Meeting_2022_(52037135713).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Tables_and_booths_at_the_American_Physical_Society_March_Meeting_2022_%2852037135713%29.jpg/1920px-Tables_and_booths_at_the_American_Physical_Society_March_Meeting_2022_%2852037135713%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 6240,
+      "h": 3900,
+      "local": "scripts/candidates/consulting-5.jpg"
+    }
+  ],
+  "export": [
+    {
+      "src": "commons",
+      "title": "Forklift.jpeg",
+      "license": "CC BY-SA 4.0",
+      "creator": "Mdornseif",
+      "page": "https://commons.wikimedia.org/wiki/File:Forklift.jpeg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Forklift.jpeg/1920px-Forklift.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2816,
+      "h": 2112,
+      "local": "scripts/candidates/export-0.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Modern warehouse with pallet rack storage system.jpg",
+      "license": "CC BY-SA 3.0",
+      "creator": "Axisadman",
+      "page": "https://commons.wikimedia.org/wiki/File:Modern_warehouse_with_pallet_rack_storage_system.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Modern_warehouse_with_pallet_rack_storage_system.jpg/1920px-Modern_warehouse_with_pallet_rack_storage_system.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 2400,
+      "h": 1870,
+      "local": "scripts/candidates/export-1.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Warehouse-plastic industry.jpg",
+      "license": "CC BY-SA 3.0",
+      "creator": "Cjp24",
+      "page": "https://commons.wikimedia.org/wiki/File:Warehouse-plastic_industry.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Warehouse-plastic_industry.jpg/1920px-Warehouse-plastic_industry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3072,
+      "h": 2304,
+      "local": "scripts/candidates/export-2.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Distribution centre (J Sainsbury's).jpg",
+      "license": "CC BY 2.0",
+      "creator": "Nick Saltmarsh",
+      "page": "https://commons.wikimedia.org/wiki/File:Distribution_centre_(J_Sainsbury%27s).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Distribution_centre_%28J_Sainsbury%27s%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "w": 1901,
+      "h": 1494,
+      "local": "scripts/candidates/export-3.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "FEMA - 44999 - Pallets of water in Iowa.jpg",
+      "license": "Public domain",
+      "creator": "Leo 'Jace' Anderson",
+      "page": "https://commons.wikimedia.org/wiki/File:FEMA_-_44999_-_Pallets_of_water_in_Iowa.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/FEMA_-_44999_-_Pallets_of_water_in_Iowa.jpg/1920px-FEMA_-_44999_-_Pallets_of_water_in_Iowa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3008,
+      "h": 2000,
+      "local": "scripts/candidates/export-4.jpg"
+    },
+    {
+      "src": "commons",
+      "title": "Workers drive Forklifts laden with USAID goods inside a large warehouse - 20110826-FS-LSC-0425 - Flickr - USDAgov.jpg",
+      "license": "Public domain",
+      "creator": "U.S. Department of Agriculture",
+      "page": "https://commons.wikimedia.org/wiki/File:Workers_drive_Forklifts_laden_with_USAID_goods_inside_a_large_warehouse_-_20110826-FS-LSC-0425_-_Flickr_-_USDAgov.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Workers_drive_Forklifts_laden_with_USAID_goods_inside_a_large_warehouse_-_20110826-FS-LSC-0425_-_Flickr_-_USDAgov.jpg/1920px-Workers_drive_Forklifts_laden_with_USAID_goods_inside_a_large_warehouse_-_20110826-FS-LSC-0425_-_Flickr_-_USDAgov.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "w": 3616,
+      "h": 1720,
+      "local": "scripts/candidates/export-5.jpg"
+    }
+  ]
+}
