@@ -9,6 +9,7 @@ import {
   projectLifecycle,
   qualityMandate,
 } from "@/content/healthcare";
+import { HeroSection } from "@/components/hero-section";
 import { Reveal } from "@/components/reveal";
 import { ServiceCard } from "@/components/service-card";
 import {
@@ -33,33 +34,20 @@ export const metadata: Metadata = {
 export default function HealthcarePage() {
   return (
     <>
-      <section className="border-b border-hairline">
-        <Container className="grid items-center gap-10 py-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16 lg:py-20">
-          <div>
-            <Eyebrow>Healthcare</Eyebrow>
-            <Heading level={1} size="lg" className="mt-5">
-              {sector.pageTitle}
-            </Heading>
-            <p className="mt-4 text-sm text-graphite">{sector.pageSubtitle}</p>
-            <Lede className="mt-6 text-graphite">{sector.heroCopy}</Lede>
-            <div className="mt-9 flex flex-wrap gap-3">
-              <ButtonLink href="/contact?sector=healthcare">
-                {sector.cta.primary}
-              </ButtonLink>
-            </div>
-          </div>
-          <div className="relative aspect-4/3 overflow-hidden rounded-[4px] bg-bone-dim">
-            <Image
-              src={sector.image.src}
-              alt={sector.image.alt}
-              fill
-              priority
-              sizes="(max-width: 1024px) 100vw, 45vw"
-              className="object-cover"
-            />
-          </div>
-        </Container>
-      </section>
+      <HeroSection
+        eyebrow="Healthcare"
+        title={sector.pageTitle}
+        subtitle={sector.pageSubtitle}
+        lede={sector.heroCopy}
+        image={sector.image}
+        ctas={[
+          {
+            label: sector.cta.primary,
+            href: "/contact?sector=healthcare",
+            variant: "primary",
+          },
+        ]}
+      />
 
       <Section tone="ink">
         <Container>

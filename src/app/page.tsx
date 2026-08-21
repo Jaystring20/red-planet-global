@@ -47,9 +47,9 @@ export default function HomePage() {
               </Reveal>
               <Reveal variant="slide" delay={0.3} className="mt-9">
                 <div className="flex flex-wrap gap-3">
-                  <ButtonLink href="#sectors">Explore your sector</ButtonLink>
+                  <ButtonLink href="#sectors">Discover your sector</ButtonLink>
                   <ButtonLink href="/contact" variant="secondary">
-                    Speak to our team
+                    Connect with us
                   </ButtonLink>
                 </div>
               </Reveal>

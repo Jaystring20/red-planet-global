@@ -1,6 +1,6 @@
-import Image from "next/image";
 import type { Sector } from "@/content/sectors";
 import { company } from "@/content/company";
+import { HeroSection } from "./hero-section";
 import { Reveal } from "./reveal";
 import { ButtonLink, Container, Heading, Lede, Section } from "./ui";
 
@@ -12,35 +12,20 @@ import { ButtonLink, Container, Heading, Lede, Section } from "./ui";
 export function SectorPage({ sector }: { sector: Sector }) {
   return (
     <>
-      <section className="border-b border-hairline">
-        <Container className="grid items-center gap-10 py-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16 lg:py-20">
-          <div>
-            <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-signal">
-              {sector.name}
-            </p>
-            <Heading level={1} size="lg" className="mt-5">
-              {sector.pageTitle}
-            </Heading>
-            <p className="mt-4 text-sm text-graphite">{sector.pageSubtitle}</p>
-            <Lede className="mt-6 text-graphite">{sector.heroCopy}</Lede>
-            <div className="mt-9 flex flex-wrap gap-3">
-              <ButtonLink href={`/contact?sector=${sector.slug}`}>
-                {sector.cta.primary}
-              </ButtonLink>
-            </div>
-          </div>
-          <div className="relative aspect-4/3 overflow-hidden rounded-[4px] bg-bone-dim">
-            <Image
-              src={sector.image.src}
-              alt={sector.image.alt}
-              fill
-              priority
-              sizes="(max-width: 1024px) 100vw, 45vw"
-              className="object-cover"
-            />
-          </div>
-        </Container>
-      </section>
+      <HeroSection
+        eyebrow={sector.name}
+        title={sector.pageTitle}
+        subtitle={sector.pageSubtitle}
+        lede={sector.heroCopy}
+        image={sector.image}
+        ctas={[
+          {
+            label: sector.cta.primary,
+            href: `/contact?sector=${sector.slug}`,
+            variant: "primary",
+          },
+        ]}
+      />
 
       <Section tone="ink">
         <Container>
