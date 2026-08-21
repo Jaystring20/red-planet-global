@@ -80,7 +80,12 @@ export default function HomePage() {
           */}
           <div className="mt-12 grid items-start gap-x-8 gap-y-14 md:grid-cols-2">
             {sectors.map((s, i) => (
-              <Reveal key={s.slug} as="article" delay={(i % 2) * 0.07}>
+              <Reveal
+                key={s.slug}
+                as="article"
+                variant="card"
+                delay={i * 0.12}
+              >
                 <Link
                   href={s.slug === "healthcare" ? "/healthcare" : `/sectors/${s.slug}`}
                   className="group block"
@@ -124,7 +129,13 @@ export default function HomePage() {
           </div>
           <ol className="mt-14 grid gap-px overflow-hidden rounded-[4px] bg-hairline-dark md:grid-cols-3">
             {capabilities.map((c, i) => (
-              <Reveal as="li" key={c.slug} delay={i * 0.08} className="bg-ink p-7 md:p-8">
+              <Reveal
+                as="li"
+                key={c.slug}
+                variant="scale"
+                delay={i * 0.1}
+                className="bg-ink p-7 md:p-8"
+              >
                 <h3 className="border-t-2 border-gold pt-5 text-xl font-semibold text-bone">
                   {c.title}
                 </h3>
@@ -154,7 +165,10 @@ export default function HomePage() {
         <Container>
           {/* White on the bone ground so the overlap reads as a raised panel
               rather than an abruptly cropped image. */}
-          <Reveal className="relative z-10 -mt-16 max-w-2xl rounded-[4px] border border-hairline bg-white p-8 md:-mt-28 md:p-12">
+          <Reveal
+            variant="rotate"
+            className="relative z-10 -mt-16 max-w-2xl rounded-[4px] border border-hairline bg-white p-8 md:-mt-28 md:p-12"
+          >
             <Eyebrow>Featured project</Eyebrow>
             <Heading level={2} size="md" className="mt-4">
               {featured.title}
@@ -179,7 +193,12 @@ export default function HomePage() {
           <Heading>Why Red Planet Global</Heading>
           <dl className="mt-12 grid gap-x-16 md:grid-cols-2">
             {differentiators.map((d, i) => (
-              <Reveal key={d.title} delay={i * 0.06} className="border-t border-hairline py-7">
+              <Reveal
+                key={d.title}
+                variant="slide"
+                delay={i * 0.08}
+                className="border-t border-hairline py-7"
+              >
                 <dt className="text-lg font-semibold text-ink">{d.title}</dt>
                 <dd className="measure mt-2.5 text-sm leading-relaxed text-graphite">
                   {d.copy}

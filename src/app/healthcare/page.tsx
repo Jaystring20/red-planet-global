@@ -10,6 +10,7 @@ import {
   qualityMandate,
 } from "@/content/healthcare";
 import { Reveal } from "@/components/reveal";
+import { ServiceCard } from "@/components/service-card";
 import {
   ButtonLink,
   Container,
@@ -75,44 +76,32 @@ export default function HealthcarePage() {
       <Section>
         <Container>
           <Heading>Three integrated divisions</Heading>
-          <div className="mt-12 grid gap-x-12 gap-y-12 md:grid-cols-3">
+          <div className="mt-12 grid gap-8 md:grid-cols-3">
             {sector.services.map((group, i) => (
-              <Reveal key={group.title} delay={i * 0.07}>
-                <h3 className="border-t-2 border-signal pt-4 text-lg font-semibold text-ink">
-                  {group.title}
-                </h3>
-                <ul className="mt-5 space-y-3">
-                  {group.items.map((item) => (
-                    <li key={item} className="text-sm leading-relaxed text-graphite">
-                      {item}
-                    </li>
-                  ))}
-                </ul>
+              <Reveal key={group.title} variant="card" delay={i * 0.08}>
+                <ServiceCard
+                  title={group.title}
+                  items={group.items}
+                  defaultExpanded={true}
+                />
               </Reveal>
             ))}
           </div>
         </Container>
       </Section>
 
-      {/* Equipment portfolio: grouped chunks, not a spec table */}
+      {/* Equipment portfolio: compact collapsible cards */}
       <Section tone="dim">
         <Container>
           <Heading>Equipment portfolio</Heading>
           <div className="mt-12 grid gap-8 sm:grid-cols-2">
             {equipmentPortfolio.map((group, i) => (
-              <Reveal
-                key={group.title}
-                delay={i * 0.06}
-                className="rounded-[4px] bg-bone p-7"
-              >
-                <h3 className="text-base font-semibold text-ink">{group.title}</h3>
-                <ul className="mt-4 space-y-2.5">
-                  {group.items.map((item) => (
-                    <li key={item} className="text-sm leading-relaxed text-graphite">
-                      {item}
-                    </li>
-                  ))}
-                </ul>
+              <Reveal key={group.title} variant="card" delay={i * 0.07}>
+                <ServiceCard
+                  title={group.title}
+                  items={group.items}
+                  defaultExpanded={false}
+                />
               </Reveal>
             ))}
           </div>
@@ -131,7 +120,13 @@ export default function HealthcarePage() {
           </div>
           <ol className="mt-14 grid gap-px overflow-hidden rounded-[4px] bg-hairline md:grid-cols-2 lg:grid-cols-3">
             {projectLifecycle.map((stage, i) => (
-              <Reveal as="li" key={stage.name} delay={i * 0.05} className="bg-bone p-7">
+              <Reveal
+                as="li"
+                key={stage.name}
+                variant="scale"
+                delay={i * 0.06}
+                className="bg-bone p-7"
+              >
                 <span className="font-mono text-xs text-signal">
                   {String(i + 1).padStart(2, "0")}
                 </span>
@@ -153,7 +148,8 @@ export default function HealthcarePage() {
             {afterSalesSupport.map((s, i) => (
               <Reveal
                 key={s.title}
-                delay={i * 0.06}
+                variant="slide"
+                delay={i * 0.07}
                 className="border-t border-hairline-dark py-7"
               >
                 <dt className="text-lg font-semibold text-bone">{s.title}</dt>
@@ -178,7 +174,10 @@ export default function HealthcarePage() {
           />
         </div>
         <Container>
-          <Reveal className="relative z-10 -mt-16 max-w-3xl rounded-[4px] border border-hairline bg-white p-8 md:-mt-28 md:p-12">
+          <Reveal
+            variant="rotate"
+            className="relative z-10 -mt-16 max-w-3xl rounded-[4px] border border-hairline bg-white p-8 md:-mt-28 md:p-12"
+          >
             <Eyebrow>Project record</Eyebrow>
             <Heading level={2} size="md" className="mt-4">
               {project.title}

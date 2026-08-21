@@ -6,8 +6,9 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { List, X } from "@phosphor-icons/react";
 import { cx } from "./ui";
+import { MegaMenu } from "./mega-menu";
 
-const nav = [
+const mobileNav = [
   { href: "/healthcare", label: "Healthcare" },
   { href: "/sectors/agriculture", label: "Agriculture" },
   { href: "/sectors/mining", label: "Mining" },
@@ -38,25 +39,38 @@ export function SiteHeader() {
           />
         </Link>
 
-        <nav aria-label="Primary" className="hidden items-center gap-6 lg:flex">
-          {nav.map((item) => {
-            const active = pathname === item.href;
-            return (
-              <Link
-                key={item.href}
-                href={item.href}
-                aria-current={active ? "page" : undefined}
-                className={cx(
-                  "border-b-2 py-1 text-sm transition-colors",
-                  active
-                    ? "border-signal text-ink"
-                    : "border-transparent text-graphite hover:text-ink",
-                )}
-              >
-                {item.label}
-              </Link>
-            );
-          })}
+        <nav aria-label="Primary" className="hidden items-center gap-8 lg:flex">
+          {/* Mega Menu for Sectors */}
+          <MegaMenu />
+
+          {/* Static Links */}
+          <Link
+            href="/capabilities"
+            aria-current={pathname === "/capabilities" ? "page" : undefined}
+            className={cx(
+              "border-b-2 py-1 text-sm transition-colors",
+              pathname === "/capabilities"
+                ? "border-signal text-ink"
+                : "border-transparent text-graphite hover:text-ink",
+            )}
+          >
+            Capabilities
+          </Link>
+
+          <Link
+            href="/about"
+            aria-current={pathname === "/about" ? "page" : undefined}
+            className={cx(
+              "border-b-2 py-1 text-sm transition-colors",
+              pathname === "/about"
+                ? "border-signal text-ink"
+                : "border-transparent text-graphite hover:text-ink",
+            )}
+          >
+            About
+          </Link>
+
+          {/* Contact CTA */}
           <Link
             href="/contact"
             className="rounded-[2px] bg-signal px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-signal-deep active:translate-y-px"
@@ -84,10 +98,11 @@ export function SiteHeader() {
           className="border-t border-hairline bg-bone px-5 pb-6 pt-2 lg:hidden"
         >
           <ul className="divide-y divide-hairline">
-            {nav.map((item) => (
+            {mobileNav.map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
+                  onClick={() => setOpen(false)}
                   className="block py-3.5 text-base text-ink"
                   aria-current={pathname === item.href ? "page" : undefined}
                 >
@@ -98,6 +113,7 @@ export function SiteHeader() {
           </ul>
           <Link
             href="/contact"
+            onClick={() => setOpen(false)}
             className="mt-5 block rounded-[2px] bg-signal px-5 py-3 text-center text-sm font-medium text-white"
           >
             Contact
