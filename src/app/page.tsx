@@ -21,34 +21,57 @@ const featured = caseStudies[0];
 export default function HomePage() {
   return (
     <>
-      {/* 1. Hero: asymmetric split. Four text elements, nothing more. */}
-      <section className="border-b border-hairline">
-        <Container className="grid min-h-[calc(100dvh-68px)] items-center gap-10 py-16 lg:grid-cols-[1.25fr_0.75fr] lg:gap-14 lg:py-20">
-          <div>
-            <Eyebrow>{company.rc}</Eyebrow>
-            <Heading level={1} size="xl" className="mt-5">
-              Transforming African business across critical sectors
-            </Heading>
-            <Lede className="mt-6 text-graphite">
-              Integrated consulting, strategic trading, and export facilitation for
-              healthcare, agriculture, mining, and construction.
-            </Lede>
-            <div className="mt-9 flex flex-wrap gap-3">
-              <ButtonLink href="#sectors">Explore your sector</ButtonLink>
-              <ButtonLink href="/contact" variant="secondary">
-                Speak to our team
-              </ButtonLink>
+      {/* 1. Hero: asymmetric split with floating gold accent bar. */}
+      <section className="border-b border-hairline relative overflow-hidden">
+        <Container className="relative grid min-h-[calc(100dvh-68px)] items-center py-16 lg:py-20">
+          {/* Floating gold accent bar (hidden on mobile) */}
+          <div className="hidden lg:block absolute left-1/2 top-1/3 -translate-x-1/2 w-1 h-1/3 bg-gold/60 shadow-lg rounded-full" />
+
+          {/* Main grid: 40/60 split */}
+          <div className="grid lg:grid-cols-[0.9fr_1.1fr] gap-10 lg:gap-20 items-center">
+            {/* Left column: Text (40%) */}
+            <div>
+              <Reveal variant="fade" delay={0}>
+                <Eyebrow>{company.rc}</Eyebrow>
+              </Reveal>
+              <Reveal variant="slide" delay={0.1}>
+                <Heading level={1} size="xl" className="mt-5">
+                  Transforming African business across critical sectors
+                </Heading>
+              </Reveal>
+              <Reveal variant="slide" delay={0.2}>
+                <Lede className="mt-6 text-graphite">
+                  Integrated consulting, strategic trading, and export facilitation for
+                  healthcare, agriculture, mining, and construction.
+                </Lede>
+              </Reveal>
+              <Reveal variant="slide" delay={0.3} className="mt-9">
+                <div className="flex flex-wrap gap-3">
+                  <ButtonLink href="#sectors">Explore your sector</ButtonLink>
+                  <ButtonLink href="/contact" variant="secondary">
+                    Speak to our team
+                  </ButtonLink>
+                </div>
+              </Reveal>
             </div>
-          </div>
-          <div className="relative aspect-4/3 overflow-hidden rounded-[4px] bg-bone-dim lg:aspect-3/4">
-            <Image
-              src="/img/hero.webp"
-              alt="Container cranes and stacked freight at a deep-water port terminal"
-              fill
-              priority
-              sizes="(max-width: 1024px) 100vw, 45vw"
-              className="object-cover"
-            />
+
+            {/* Right column: Image (60%) - rotated with shadow */}
+            <Reveal variant="rotate" delay={0.25}>
+              <div className="relative aspect-4/3 overflow-visible">
+                {/* Rotated image with shadow depth */}
+                <div className="absolute inset-0 rounded-[8px] bg-bone-dim shadow-2xl"
+                     style={{ transform: 'perspective(1200px) rotateY(-8deg) rotateX(2deg)' }}>
+                  <Image
+                    src="/img/hero.webp"
+                    alt="Container cranes and stacked freight at a deep-water port terminal"
+                    fill
+                    priority
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    className="object-cover rounded-[8px]"
+                  />
+                </div>
+              </div>
+            </Reveal>
           </div>
         </Container>
       </section>
