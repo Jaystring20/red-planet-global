@@ -112,7 +112,7 @@ export function MegaMenu() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -8 }}
           transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
-          className="absolute left-0 top-full z-50 mt-2 w-max min-w-[520px] rounded-[4px] border border-hairline bg-white shadow-lg"
+          className="absolute left-1/2 -translate-x-1/2 top-full z-50 mt-2 w-max min-w-[520px] max-w-[calc(100vw-32px)] rounded-[4px] border border-hairline bg-white shadow-lg"
           role="menu"
           aria-orientation="vertical"
         >

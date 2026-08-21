@@ -54,12 +54,15 @@ export default function HomePage() {
       </section>
 
       {/* 2. Regulatory alignment band. Marks only, no captions. */}
-      <section className="border-b border-hairline bg-bone-dim py-8">
+      <section className="border-b border-hairline bg-bone-dim py-12">
         <Container>
-          <ul className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4">
+          <div className="text-center mb-6">
+            <Eyebrow className="justify-center text-xs">Regulatory alignment</Eyebrow>
+          </div>
+          <ul className="flex flex-wrap items-center justify-center gap-x-12 gap-y-4 lg:gap-x-16">
             {certifications.map((c) => (
               <li key={c.abbr}>
-                <span className="font-mono text-sm tracking-wide text-graphite">
+                <span className="font-mono text-xs font-semibold tracking-widest text-ink">
                   {c.abbr}
                 </span>
               </li>
@@ -88,29 +91,32 @@ export default function HomePage() {
               >
                 <Link
                   href={s.slug === "healthcare" ? "/healthcare" : `/sectors/${s.slug}`}
-                  className="group block"
+                  className="group block rounded-[4px] overflow-hidden border border-hairline bg-white transition-all duration-300 hover:border-signal/30 hover:shadow-lg"
                 >
-                  <div className="relative aspect-4/3 overflow-hidden rounded-[4px] bg-bone-dim">
+                  <div className="relative aspect-4/3 overflow-hidden bg-bone-dim">
                     <Image
                       src={s.image.src}
                       alt={s.image.alt}
                       fill
                       sizes="(max-width: 768px) 100vw, 46vw"
-                      className="object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.03]"
+                      className="object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
                     />
                   </div>
-                  <h3 className="mt-6 text-xl font-semibold text-ink">{s.headline}</h3>
-                  <p className="mt-1.5 text-sm text-signal">{s.positioning}</p>
-                  <p className="measure mt-3 text-sm leading-relaxed text-graphite">
-                    {s.cardCopy}
-                  </p>
-                  <span className="mt-5 inline-flex items-center gap-1.5 border-b border-ink pb-0.5 text-sm font-medium text-ink">
-                    Explore {s.name.toLowerCase()}
-                    <ArrowRight
-                      size={15}
-                      className="transition-transform group-hover:translate-x-1"
-                    />
-                  </span>
+                  <div className="p-6">
+                    <h3 className="text-lg font-semibold text-ink">{s.headline}</h3>
+                    <p className="mt-1 text-sm text-signal font-medium">{s.positioning}</p>
+                    <p className="measure mt-3 text-sm leading-relaxed text-graphite">
+                      {s.cardCopy}
+                    </p>
+                    <span className="mt-5 inline-flex items-center gap-1.5 border-b-2 border-ink pb-1 text-sm font-medium text-ink transition-all group-hover:gap-2">
+                      Explore {s.name.toLowerCase()}
+                      <ArrowRight
+                        size={15}
+                        weight="bold"
+                        className="transition-transform group-hover:translate-x-1"
+                      />
+                    </span>
+                  </div>
                 </Link>
               </Reveal>
             ))}
@@ -187,20 +193,20 @@ export default function HomePage() {
         </Container>
       </Section>
 
-      {/* 6. Differentiators: two-column with hairline dividers, not cards. */}
+      {/* 6. Differentiators: two-column with enhanced styling. */}
       <Section tone="dim">
         <Container>
           <Heading>Why Red Planet Global</Heading>
-          <dl className="mt-12 grid gap-x-16 md:grid-cols-2">
+          <dl className="mt-14 grid gap-x-16 gap-y-10 md:grid-cols-2">
             {differentiators.map((d, i) => (
               <Reveal
                 key={d.title}
                 variant="slide"
                 delay={i * 0.08}
-                className="border-t border-hairline py-7"
+                className="border-l-2 border-signal pl-6"
               >
-                <dt className="text-lg font-semibold text-ink">{d.title}</dt>
-                <dd className="measure mt-2.5 text-sm leading-relaxed text-graphite">
+                <dt className="text-base font-semibold text-ink">{d.title}</dt>
+                <dd className="measure mt-3 text-sm leading-relaxed text-graphite">
                   {d.copy}
                 </dd>
               </Reveal>
@@ -230,22 +236,22 @@ export default function HomePage() {
       {/* 8. Sector-routed CTA row. */}
       <Section>
         <Container>
-          <div className="grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-end">
+          <div className="grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:items-end">
             <div>
               <Heading>Ready to start a conversation?</Heading>
               <Lede className="mt-5 text-graphite">
-                Tell us which sector you operate in and our specialist team will respond.
+                Tell us which sector you operate in and our specialist team will respond within 24 hours.
               </Lede>
-              <p className="mt-3 text-sm text-graphite">{company.responsePromise}</p>
+              <p className="mt-3 text-xs font-medium text-signal uppercase tracking-wide">{company.responsePromise}</p>
             </div>
-            <ul className="grid gap-px overflow-hidden rounded-[4px] bg-hairline sm:grid-cols-2">
+            <ul className="grid gap-px overflow-hidden rounded-[4px] bg-hairline sm:grid-cols-2 border border-hairline">
               {sectors.map((s) => (
                 <li key={s.slug}>
                   <Link
                     href={`/contact?sector=${s.slug}`}
-                    className="group flex items-center justify-between gap-4 bg-bone px-6 py-5 transition-colors hover:bg-bone-dim"
+                    className="group flex items-center justify-between gap-4 bg-white px-6 py-6 transition-all hover:bg-bone-dim hover:border-l-2 hover:border-signal hover:pl-5"
                   >
-                    <span className="text-sm font-medium text-ink">{s.name}</span>
+                    <span className="text-sm font-semibold text-ink">{s.name}</span>
                     <ArrowRight
                       size={16}
                       className="text-signal transition-transform group-hover:translate-x-1"
